@@ -1,0 +1,15 @@
+{
+  "name": "jacobasmith.io",
+  "version": "1.0.0",
+  "description": "A personal website for Jacob A. Smith.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob A. Smith",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "jquery": "^3.5.1"
+  }
+}
