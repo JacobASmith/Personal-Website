@@ -31,14 +31,28 @@ i.fa {
     /* color: lightgrey; */
 }
 .is-powder-blue, .has-text-powder-blue {
-    color: #C2EFEB;
+    color: #58A6EE;
 }
 .has-background-powder-blue {
-    background-color: #C2EFEB;
+    background-color: #58A6EE;
 }
-.is-superior-blue, .has-text-superior-blue {
-    color: #6EA4BF;
+.is-main-bg, .has-text-main-bg {
+    color: #FBFAF7;
 }
-.has-background-superior-blue {
-    background-color: #6EA4BF;
+.has-background-main-bg {
+    background-color: #FBFAF7;
+}
+
+.is-secondary-bg, .has-text-secondary-bg {
+    color: #99AAC4;
+}
+.has-background-secondary-bg {
+    background-color: #99AAC4;
+}
+
+.is-c3, .has-text-c3 {
+    color: #ACC8ED;
+}
+.has-background-c3 {
+    background-color: #ACC8ED;
 }

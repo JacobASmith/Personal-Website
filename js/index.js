@@ -8,6 +8,20 @@ $(document).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
         
     });
+    $("#2048toggle").click(function(){
+        // Toggle 2048 visibility:
+        $("#2048").toggleClass("is-hidden");
+        
+        if($("#2048").hasClass("is-hidden")) {
+            $("#2048toggle i").removeClass().addClass("fa fa-plus-circle");
+        }
+        else {
+            $("#2048").focus();
+            $("#2048toggle i").removeClass().addClass("fa fa-minus-circle"); 
+        }
+        
+
+    });
 
     // var $navigationLinks = $('#navbar > div > a');
     // var $sections = $(".section");

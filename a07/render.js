@@ -19,7 +19,7 @@ export const renderGame = function(gameState) {
             let val = gameState.board[row*size + col];
             htmlGame += `<div class='column is-one-quarter' style="height: 100%;">`;
             htmlGame += (`<div class='box is-shadowless val${val} ${val >= 8 ? 'gt4': ''}'" style="height:100px;">
-                            <p class="has-text-centered has-text-weight-bold">${val > 0 ? val : ''}</p>
+                            <p class="has-text-centered has-text-weight-bold is-size-${val > 64 ? (val > 1000 ? 3 : 2) : 1}">${val > 0 ? val : ''}</p>
                         </div>`);
             htmlGame += `</div>`;   
         }
