@@ -13,7 +13,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-figure.image {
+figure.experience {
     background-color: #999;
     height: 150px;
     width: 150px;
@@ -22,4 +22,23 @@ figure.image {
 }
 .flexible-size {
     height: 100%;
+}
+.sticky	{
+	position: sticky;
+  	top: 30px;
+}  
+i.fa {
+    /* color: lightgrey; */
+}
+.is-powder-blue, .has-text-powder-blue {
+    color: #C2EFEB;
+}
+.has-background-powder-blue {
+    background-color: #C2EFEB;
+}
+.is-superior-blue, .has-text-superior-blue {
+    color: #6EA4BF;
+}
+.has-background-superior-blue {
+    background-color: #6EA4BF;
 }

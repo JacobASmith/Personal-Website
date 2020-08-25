@@ -1,0 +1,155 @@
+html {
+    color: #776E65;
+    background: #FAF8EF;
+}
+.tsection {
+    display: inline-block;
+    vertical-align: top;
+}
+.title {
+    font-size: 6rem;
+}
+#title-section h1 {
+    margin-right: 50px;
+}
+#score, #best {
+    background: #BBADA0;
+    height: min-content;
+    width: auto;
+    float: right;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#score h1, #score p,#best h1, #best p {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.column .box {
+    padding-left: 0;
+    padding-right: 0;
+}
+.box p {
+    font-size: 2.5vw;
+}
+div .subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    display: block;
+    border: none;
+}
+div.gameWon {
+    background: rgba(241, 201, 22, 0.5);
+    z-index: 100;
+    position: absolute;
+    top:0px;
+    width:500px;
+    height:100%;
+    margin-left: -5px;
+    text-align: center;
+    padding-top: 10%;
+}
+div.gameOver {
+    background: rgba(255,255,255,0.5);
+    z-index: 100;
+    position: absolute;
+    top:0px;
+    width:500px;
+    height:100%;
+    margin-left: -5px;
+    text-align: center;
+    padding-top: 10%;
+}
+.gameWon .title {
+    font-size: 6rem;
+    color: #F9F6F2;
+}
+.gameOver .title {
+    font-size: 5rem;
+}
+#new-game, #try-again, #keep-going {
+    background: #8F7A66;
+    height: 10px;
+    width: 30%;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#new-game {
+    float: right;
+}
+#try-again, #keep-going {
+    display: inline-block;
+    margin: 10px;
+}
+#new-game .subtitle, #try-again .subtitle, #keep-going .subtitle {
+    color: #F9F6F2;
+    vertical-align: top;
+    margin: 0;
+    opacity: 1;
+}
+#game {
+    background: #BBADA0;
+    width: 500px;
+    min-width: 500px;
+    padding: 5px;
+    margin: auto;
+}
+.val0 {
+    background: #CDC1B4;
+}
+.val2 {
+    background: #EEE4DA; 
+}
+.val4 {
+    background: #EDE0C8; 
+}
+.val8 {
+    background: #F2B179;
+}
+.val16 {
+    background: #F59563;
+}
+.val32 {
+    background: #F67C5F;
+}
+.val64 {
+    background: #F6623D;
+}
+.val128 {
+    background: #EDCF72;
+}
+.val256 {
+    background: #EDCC61;
+}
+.val512 {
+    background: #FCCA59;
+}
+.val1024 {
+    background: #EDC53F;
+}
+.val2048 {
+    background: #FBC52D;
+}
+.val4096 {
+    background: #ED6371;
+}
+.val8192 {
+    background: #EA495E;
+}
+.gt4 {
+    color: #F9F6F2;
+}
+.howTo {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #8F7A66;
+}
+strong {
+    color: #8F7A66;
+}
