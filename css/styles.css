@@ -26,9 +26,6 @@ figure.experience {
 .sticky	{
 	position: sticky;
   	top: 30px;
-}  
-i.fa {
-    /* color: lightgrey; */
 }
 .is-powder-blue, .has-text-powder-blue {
     color: #58A6EE;
