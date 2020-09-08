@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* .navbar-item.navbar-center {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+} */
+.navbar {
+    background-color: transparent;
+}
+.navbar-start {
+    margin-left: auto;
+    margin-right: auto;
+}
+figure.experience {
+    background-color: #999;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    overflow: hidden;
+}
+.flexible-size {
+    height: 100%;
+}
+.sticky	{
+	position: sticky;
+  	top: 30px;
+}
+.is-powder-blue, .has-text-powder-blue {
+    color: #58A6EE;
+}
+.has-background-powder-blue {
+    background-color: #58A6EE;
+}
+.is-main-bg, .has-text-main-bg {
+    color: #FBFAF7;
+}
+.has-background-main-bg {
+    background-color: #FBFAF7;
+}
+
+.is-secondary-bg, .has-text-secondary-bg {
+    color: #99AAC4;
+}
+.has-background-secondary-bg {
+    background-color: #99AAC4;
+}
+
+.is-c3, .has-text-c3 {
+    color: #ACC8ED;
+}
+.has-background-c3 {
+    background-color: hsl(204, 86%, 53%);
+    /* background-color: #ACC8ED; */
+}
+.card-header-title-center {
+    padding: auto;
+    /* position: absolute; */
+    align-self: center;
+    /* align-content: space-around; */
+    /* text-align: center; */
+}
+#VEGAtoggle, #StarPartytoggle, #jasiotoggle {
+    pointer-events: none;
+}
