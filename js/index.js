@@ -1,4 +1,24 @@
 $(document).ready(function() {
+    // 
+    $(document).scroll(function() {
+        var cutoff = $(window).scrollTop() - 20;
+        var cutoffRange = cutoff + 200;
+    
+        // Find current section and highlight nav menu
+        var curSec = $.find('.current');
+        var curID = $(curSec).attr('id');
+        $('.side.fa-circle').removeClass('fa-circle').addClass('fa-circle-o');
+        $(`#${curID}Button`).addClass('fa-circle')
+        $('.scrollsection').each(function(){
+            if ($(this).offset().top >= cutoff && $(this).offset().top < cutoffRange) {
+                $('.scrollsection').removeClass('current')
+                $(this).addClass('current');
+                return false; // stops the iteration after the first one on screen
+            }
+        });
+        console.log(curID)
+    });
+
 
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {

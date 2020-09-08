@@ -64,3 +64,18 @@ figure.experience {
 #VEGAtoggle, #StarPartytoggle, #jasiotoggle {
     pointer-events: none;
 }
+#sidenav {
+    float: right;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    height: 200px;
+    margin-top:-100px;
+}
+.navbar-item {
+    transition-duration: 1s;
+}
+.navbar-start {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
