@@ -16,12 +16,31 @@ $(document).ready(function() {
             $("#2048toggle i").removeClass().addClass("fa fa-plus-circle");
         }
         else {
-            $("#2048").focus();
+            $("#2048iframe").focus();
             $("#2048toggle i").removeClass().addClass("fa fa-minus-circle"); 
         }
         
 
     });
+    $("#VEGAtoggle").click(function(){
+        // Toggle 2048 visibility:
+        $("#VEGA").toggleClass("is-hidden");
+        
+        if($("#VEGA").hasClass("is-hidden")) {
+            $("#VEGAtoggle i").removeClass().addClass("fa fa-plus-circle");
+        }
+        else {
+            $("#VEGA").focus();
+            $("#VEGAtoggle i").removeClass().addClass("fa fa-minus-circle"); 
+        }
+        
+
+    });
+    $("#2048Container").click(function(){
+        if(!$("#2048").hasClass("is-hidden")) {
+            $("#2048iframe").focus();
+        }
+    })
 
     // var $navigationLinks = $('#navbar > div > a');
     // var $sections = $(".section");

@@ -54,5 +54,16 @@ i.fa {
     color: #ACC8ED;
 }
 .has-background-c3 {
-    background-color: #ACC8ED;
+    background-color: hsl(204, 86%, 53%);
+    /* background-color: #ACC8ED; */
+}
+.card-header-title-center {
+    padding: auto;
+    /* position: absolute; */
+    align-self: center;
+    /* align-content: space-around; */
+    /* text-align: center; */
+}
+#VEGAtoggle, #StarPartytoggle, #jasiotoggle {
+    pointer-events: none;
 }

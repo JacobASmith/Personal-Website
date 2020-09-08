@@ -39,7 +39,7 @@
         </div>
       
         <div id="navbar" class="navbar-menu">
-          <div class="navbar-start has-background-c3">
+          <div class="navbar-start has-background-powder-blue">
             <a class="navbar-item" href="#Home">
               Home
             </a>
@@ -55,6 +55,11 @@
             <a class="navbar-item" href="#Projects">
               Projects
             </a>
+
+            <a class="navbar-item" href="#Contact">
+              Contact
+            </a>
+            
             <!-- <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
                 More
@@ -100,20 +105,31 @@
         -->
         <!-- Hero content: will be in the middle -->
         <div class="hero-body ">
-            <div class="container has-text-centered ">
+            <div class="container has-text-centered has-background-white-bis">
                 <h1 class="title has-text-powder-blue is-family-monospace is-size-1">
                     Jacob A. Smith
                 </h1>
                 <h2 class="subtitle has-text-secondary-bg">
                     Software Engineer
-                </h2>
+                    <br>
+                <a href="https://www.linkedin.com/in/thejacobsmith/" class="has-text-grey is-size-3" target="_blank">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a href="https://github.com/JacobASmith" class="has-text-grey is-size-3" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="mailto:jsmith00@live.unc.edu" class="has-text-grey is-size-3" target="_blank">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </h2>
+                
             </div>
         </div>
 
         
     </section>  
 
-    <section id="About" class="hero is-fullheight has-background-c3">
+    <section id="About" class="hero is-fullheight has-background-powder-blue">
         <div class="hero-body">
           <div class="container">
            
@@ -125,7 +141,7 @@
       </div>
     </section>
 
-    <section id="Experience" class="section">
+    <section id="Experience" class="section has-background-white-bis">
         <div class="container has-text-centered">
           <h1 class="title">
               Experience
@@ -247,71 +263,210 @@
         </div>
     </section>
 
-    <section id="Projects" class="section has-background-c3">
-        <div class="container ">
-          <h1 class="title has-text-centered">
-            I'm currently working on...
-          </h1>
-          
-          <section class="hero">
-            <div class="hero-body">
-              <h1 class="title">
-                Star Party
-              </h1>
+    <section id="Projects" class="section has-background-powder-blue">
+        <h1 class="title has-text-centered">
+          I'm currently working on...
+        </h1>
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column is-7">
+            <div class="card has-background-main-bg">
+              <header class="card-header is-size-3">
+                <p class="card-header-title">
+                  Star Party
+                </p>
+                <p class="card-header-title-center is-size-7">
+                  <a href="https://github.com/JacobASmith/StarParty" class="button is-info is-light" target="_blank">View on Github</a>
+                </p>
+                <div id="StarPartytoggle" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fa fa-plus-circle is-invisible" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <p>Enjoy playing 2048 that I modeled after the official version! This was a great experience working with the 
+                    Bulma CSS framework. Click the plus to expand and see if you have the skill to reach 2048.</p>
+                  <div id="StarParty" class="columns is-multiline is-hidden">
+                    <div class="column is-12">
+                      <hr>
+                    </div>
+                    <div class="column"></div>
+                    <div class="column">
+                      
+                      <!-- <iframe id="StarPartyiframe" class="has-text-centered" src="a07/2048.html" title="2048 Description" scrolling="no" style="border:none;height:850px;width:550px;min-width: 550px;justify-content: center;"></iframe> -->
+                    </div>
+                    <div class="column"></div>
+                  </div>
+
+                </div>
+              </div>
             </div>
-          </section>
+            <br>
+            <div class="card has-background-main-bg">
+              <header class="card-header is-size-3">
+                <p class="card-header-title">
+                  jacobasmith.io
+                </p>
+                <p class="card-header-title-center is-size-7">
+                  <a href="https://github.com/JacobASmith/jacobasmith.io" class="button is-info is-light" target="_blank">View on Github</a>
+                </p>
+                
+                <div id="jasiotoggle" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fa fa-plus-circle is-invisible" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </header>
+              <div id="jasioContainer" class="card-content">
+                <div class="content">
+                  <p>This has been an ongoing, but rewarding personal project. This site is ever evolving, and it has been an iterative improvement.
+                    My goal is to provide some insight into my interests and experiences. 
+                    Any suggestions and feedback would be greatly appreciated, via the contact information listed below.
+                  </p>
+                  <div id="jasiotoggle" class="columns is-multiline is-hidden">
+                    <div class="column is-12">
+                      <hr>
+                    </div>
+                    <div class="column"></div>
+                    <div class="column">
+                      
+                      <!-- <iframe id="2048iframe" class="has-text-centered" src="a07/2048.html" title="2048 Description" scrolling="no" style="border:none;height:850px;width:550px;min-width: 550px;justify-content: center;"></iframe> -->
+                    </div>
+                    <div class="column"></div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <br>
+          </div>
+          <div class="column"></div>
+        </div>
+        
 
           <h1 class="title has-text-centered">
             Here are some of my recent projects
           </h1>
-
-          <section class="hero">
-            <div class="hero-body">
-              <h1 id="2048toggle" class="title">
-                <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                <a href="#2048">2048</a>
-              </h1>
-              
-                  Enjoy playing 2048 that I modeled after the official version! This was a great experience working with the 
-                  Bulma CSS framework. 
-              </div>
-              <iframe id="2048" class="hero is-fullheight is-hidden" src="a07/2048.html" title="2048 Description" scrolling="no" style="border:none;width:550px;min-width: 550px;border-radius: 50px;"></iframe>
-           
-          </section>
-
           <div class="columns">
-            <div class="column is-3">
-              
-            </div>
-          </div>
-          <div class="columns">
-            <div class="column is-3">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by4">
-                    <img src="bin/vega-logo.svg" alt="VEGA Icon">
-                  </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media-content">
-                      <p class="title is-4">VEGA</p>
-                      <p class="subtitle is-6">Scalable tourguide to the web</p>
-                    </div>
+            <div class="column"></div>
+            <div class="column is-7">
+              <div class="card has-background-main-bg">
+                <header class="card-header is-size-3">
+                  <p class="card-header-title">
+                    2048
+                  </p>
+                  <p class="card-header-title-center is-size-7">
+                    <a href="https://github.com/JacobASmith/2048" class="button is-info is-light" target="_blank">View on Github</a>
+                  </p>
+                  
+                  <div id="2048toggle" class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    </span>
                   </div>
-              
+                </header>
+                <div id="2048Container" class="card-content">
                   <div class="content">
-                    VEGA is a Chrome Assistant that can lead a users through a guided browser experience created 
-                    and shared by anyone. This is a versatile and scalable tool for HR onboarding, website tours, and elderly or disabled
-                    persons. 
-                    <br><a href="https://github.com/JacobASmith/VEGA">View the Repo</a>
+                    <p>Enjoy playing 2048 that I modeled after the official version! This was a great experience working with the 
+                      Bulma CSS framework. Click the plus to expand and see if you have the skill to reach 2048.</p>
+                    <div id="2048" class="columns is-multiline is-hidden">
+                      <div class="column is-12">
+                        <hr>
+                      </div>
+                      <div class="column"></div>
+                      <div class="column">
+                        
+                        <iframe id="2048iframe" class="has-text-centered" src="a07/2048.html" title="2048 Description" scrolling="no" style="border:none;height:850px;width:550px;min-width: 550px;justify-content: center;"></iframe>
+                      </div>
+                      <div class="column"></div>
+                    </div>
+
                   </div>
                 </div>
+
+              </div>
+              <br>
+              <div class="card has-background-main-bg">
+                <header class="card-header is-size-3">
+                  <p class="card-header-title">
+                   VEGA
+                  </p>
+                  <p class="card-header-title-center is-size-7">
+                    <a href="https://github.com/JacobASmith/VEGA" class="button is-info is-light" target="_blank">View on Github</a>
+                  </p>
+                  <div id="VEGAtoggle" class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                      <i class="fa fa-plus-circle is-invisible" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    <p>VEGA is a Chrome Assistant that can lead a users through a guided browser experience created 
+                      and shared by anyone. This is a versatile and scalable tool for HR onboarding, website tours, and elderly or disabled
+                      persons. </p>
+                    <div id="VEGA" class="columns is-multiline is-hidden">
+                      <div class="column is-12">
+                        <hr>
+                      </div>
+                      <div class="column"></div>
+                      <div class="column">
+                        
+                        <iframe id="VEGAiframe" class="has-text-centered" src="github.com" title="2048 Description" scrolling="no" style="border:none;height:850px;width:550px;min-width: 550px;justify-content: center;"></iframe>
+                      </div>
+                      <div class="column"></div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <!-- <section class="hero">
+                <div id="2048Container" class="hero-body has-text-left has-background-main-bg">
+                  <h1 id="2048toggle2" class="title has-background-secondary-bg is-unselectable">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    2048
+                  </h1>
+                  
+                      Enjoy playing 2048 that I modeled after the official version! This was a great experience working with the 
+                      Bulma CSS framework. Click the plus to expand and see if you have the skill to reach 2048.
+                      
+                
+                <iframe id="2048" class="hero is-fullheight is-hidden" src="a07/2048.html" title="2048 Description" scrolling="no" style="border:none;width:550px;min-width: 550px;border-radius: 50px;"></iframe>
+              </div>
+              </section> -->
             </div>
+            <div class="column"></div>
           </div>
         </div>
         
     </section>
   
+    <section id="Contact" class="hero is-fullheight has-background-white-bis">
+      <div class="hero-body has-text-centered">
+        <div class="container">
+          <h1 class="title">
+              Get In Touch
+          </h1>
+          <div class="">
+            <p>I am in the process of applying to online graduate programs and fulltime software engineering positions for after graduation.</p>
+            <p>Feel free to browse my <a href="bin/Jacob Smith Resume.pdf" target="_blank">resume</a> and reach out with questions and opportunities!</p>
+            <br>
+            <div class="container has-text-centered">
+              <button class="button is-large is-rounded is-info" onclick="location.href='mailto:jsmith00@live.unc.edu?subject=Reaching Out'" type="button">Contact Me</button>
+            </div>
+          </div>
+        </div>
+
+    
+      </div>
+  </section>
   </body>
   <script src="js/index.js"></script>
   <script src="a07/render.js"></script>
